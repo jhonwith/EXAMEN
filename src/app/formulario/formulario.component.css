@@ -1,0 +1,28 @@
+h2{
+  text-align: center;
+  color: red;
+  font-size: 6rem;
+  font-weight: 800;
+  margin-top: 40px;
+}
+.contenido{
+  border-style: solid;
+  width: 1100px;
+  padding: 80px;
+  border-color: black;
+  border-width: 30px;
+  margin-left:150px ;
+  margin-top: 70px;
+}
+.contenido label{
+  margin-top: 40px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.contenido input{
+  margin-left: 20px;
+}
+.contenido select{
+  margin-left: 20px;
+}
+

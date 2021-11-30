@@ -1,0 +1,39 @@
+
+<h2><em>Examen Practica</em> </h2>
+<div class="contenido">
+    <label>Código País:</label>
+
+    <select [(ngModel)]="codigos">
+      <option value="(+591)">
+        +591
+      </option>
+      <option value="(+592)">
+        +592
+      </option>
+    </select>
+
+    <label>Ciudad:</label>
+    <select [(ngModel)]="ciudades">
+      <option value="2" >La paz</option>
+      <option value="2" >Potosi</option>
+      <option value="2" >Oruro</option>
+      <option value="3" >Beni</option>
+      <option value="3" >Santa Cruz</option>
+      <option value="3" >Cobija</option>
+      <option value="4" >Cochabamba</option>
+      <option value="4" >Sucre</option>
+      <option value="4" >Tarija</option>
+    </select>
+
+    <label>Teléfono:</label>
+    <input type="text" [(ngModel)]="telefonos">
+    <br><br><br>
+    <h1> {{codigos | CountryNumber: ciudades: telefonos }} </h1>
+    </div>
+
+<!--
+<label>Ciudad:</label>
+<select [(ngModel)]="prefijo" ngFor="let id" >
+  <option value={{id}}>{{prefijo}}</option>
+</select>
+-->
